@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCA Engenharia - Links</title>
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/logo-oca-br.png">
+
+  <!-- Ícones (Lucide) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="flex flex-col items-center justify-between min-h-screen text-gray-800 
+             bg-cover bg-center bg-no-repeat bg-fixed"
+      style="background-image: url('/g.png');">
+
+  <!-- Overlay para contraste -->
+  <div class="absolute inset-0 bg-black/30"></div>
+
+  <!-- Conteúdo principal -->
+  <div class="relative z-10 flex flex-col items-center w-full">
+
+    <!-- Header -->
+    <header class="flex flex-col items-center mt-6">
+      <img src="/logo-oca-br.png" alt="OCA Engenharia" class="w-24 h-24 mb-3">
+      <h1 class="text-2xl font-bold text-white drop-shadow-md">OCA Engenharia</h1>
+    </header>
+
+    <!-- Links -->
+    <main class="flex flex-col items-center w-full max-w-sm px-4 space-y-4 mt-6">
+
+      <!-- Botão padrão OCA -->
+      <a href="https://www.ocaengenharia.com" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="globe" class="w-5 h-5 mr-2"></i> Site
+      </a>
+
+      <a href="https://online.fliphtml5.com/fqmrc/gsob/" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="briefcase" class="w-5 h-5 mr-2"></i> Portfólio
+      </a>
+
+      <a href="https://wa.me/5581988074726" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="message-circle" class="w-5 h-5 mr-2"></i> WhatsApp
+      </a>
+
+      <a href="https://www.linkedin.com/in/ocaengenharia" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i> LinkedIn
+      </a>
+
+      <a href="mailto:oton@ocaengenharia.com" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="mail" class="w-5 h-5 mr-2"></i> E-mail
+      </a>
+
+      <a href="tel:+5581988074726" target="_blank"
+         class="flex items-center justify-center w-full py-3 text-white font-medium rounded-2xl shadow-md transform hover:scale-105 transition"
+         style="background-color: rgb(0,98,152);"
+         onmouseover="this.style.backgroundColor='rgb(0,80,125)';"
+         onmouseout="this.style.backgroundColor='rgb(0,98,152)';">
+        <i data-lucide="phone" class="w-5 h-5 mr-2"></i> Ligar
+      </a>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4 mt-8 text-sm text-white drop-shadow-md">
+      <p><a href="https://www.ocaengenharia.com" target="_blank" class="underline">ocaengenharia.com</a></p>
+      <p>(81) 98807-4726</p>
+      <p><a href="https://www.instagram.com/engenhariaoca" target="_blank" class="underline">@ocaengenharia</a></p>
+    </footer>
+
+  </div>
+
+  <script>
+    lucide.createIcons(); // Renderizar ícones
+  </script>
+</body>
+</html>
